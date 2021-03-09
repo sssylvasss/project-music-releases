@@ -30,6 +30,10 @@ code {
 
 }
 
+.albumcover:hover {
+    opacity: 0.7;
+}
+
 .text-container {
     text-align: left;
     width: 100%;
@@ -43,3 +47,9 @@ code {
   color: #a0a0a0;
   font-size: 14px;
 }
+
+.artist-name:hover {
+    text-decoration: underline;
+}
+
+@media (min-width:  768px) and (max-width: 992px)
