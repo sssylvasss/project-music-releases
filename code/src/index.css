@@ -23,11 +23,18 @@ code {
 .album-container {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .albumcover {
-
+  width: 80%;
+  height: 50vh;
 }
 
 .albumcover:hover {
@@ -52,4 +59,13 @@ code {
     text-decoration: underline;
 }
 
-@media (min-width:  768px) and (max-width: 992px)
+@media (min-width:  768px) and (max-width: 992px) {
+  .album-container {
+    width: 45%;
+
+  }
+
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+
+}
