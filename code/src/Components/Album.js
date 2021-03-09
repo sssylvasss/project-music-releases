@@ -1,11 +1,11 @@
 import React from 'react';
 
-export const Album = (props) => { 
+export const Album = (props) => {
     return (
         <>
             <div className="album-container">
                 <div className="image-container">
-                        <img className="albumcover" src={props.image} alt="Album cover" />
+                    <img className="albumcover" src={props.image} alt="Album cover" />
                     <div className="icon-container">
                         <img className="heart-icon" src="/icons/heart.svg" />
                         <img className="play-icon" src="/icons/play.svg" />
