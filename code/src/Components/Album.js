@@ -13,8 +13,12 @@ export const Album = (props) => {
                     </div>
                 </div>
                 <div className="text-container">
-                    <h2 className="album-name">{props.albumName}</h2>
-                    <p className="artist-name">{props.artistName}</p>
+                    <a href={props.albumURL}>
+                        <h2 className="album-name">{props.albumName}</h2>
+                    </a>
+                    <a href={props.artistURL}>
+                        <p className="artist-name">{props.artistName}</p>
+                    </a>
                 </div>
             </div>
         </>
