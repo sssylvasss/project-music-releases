@@ -1,8 +1,9 @@
+
 import React from 'react';
 import { Artists } from './Artists.js';
 
-export const Album = (props) => {
-    console.log(props);
+export const Singles = 
+(props) => {
     return (
         <>
             <div className="album-container">
@@ -16,9 +17,8 @@ export const Album = (props) => {
                 </div>
                 <div className="text-container">
                     <a href={props.albumURL} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                    >
+                    target="_blank" 
+                    rel="noopener noreferrer">
                         <h2 className="album-name">{props.albumName}</h2>
                     </a>
                     <div className="artist-container">
